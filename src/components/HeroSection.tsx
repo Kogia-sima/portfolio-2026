@@ -36,14 +36,6 @@ export function HeroSection() {
             View My Work
             <ArrowDown className="size-4" />
           </Button>
-          <Button
-            nativeButton={false}
-            variant="outline"
-            size="lg"
-            render={<a href="#contact" />}
-          >
-            Contact Me
-          </Button>
         </div>
       </div>
     </section>
