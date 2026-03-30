@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Software Engineer",
+  title: "Portfolio | Ryohei Machida",
   description:
     "Personal portfolio showcasing software engineering projects, blog articles, and professional experience.",
 };
