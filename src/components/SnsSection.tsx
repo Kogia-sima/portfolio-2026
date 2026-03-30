@@ -14,7 +14,7 @@ export function SnsSection() {
       title="Miscellaneous"
       subtitle="その他のプロジェクトや活動については、以下のリンクからご覧いただけます。"
     >
-      <div className="flex items-center justify-center gap-4">
+      <div className="flex gap-4">
         {snsLinks.map((link) => (
           <Tooltip key={link.platform}>
             <TooltipTrigger
