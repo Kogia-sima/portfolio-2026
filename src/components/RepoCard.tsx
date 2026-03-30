@@ -37,7 +37,7 @@ export function RepoCard({
         </CardDescription>
       </CardHeader>
       <CardContent className="flex-1" />
-      <CardFooter className="flex items-center gap-4 text-sm text-muted-foreground pt-0">
+      <CardFooter className="flex items-center gap-4 text-sm text-muted-foreground pt-3">
         {languages.map((lang) => (
           <Badge key={lang} variant="outline" className="text-xs">
             {lang}

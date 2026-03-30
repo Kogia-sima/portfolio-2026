@@ -44,7 +44,6 @@ export function BlogCard({
       <CardContent className="flex-1">
         <CardDescription className="line-clamp-3">{excerpt}</CardDescription>
       </CardContent>
-      <CardFooter />
     </Card>
   );
 }
