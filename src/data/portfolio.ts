@@ -1,9 +1,10 @@
 import {
   BookOpen,
+  CodeXml,
   FolderGit2,
   GitBranch,
-  Globe,
   Mail,
+  Newspaper,
   Star,
   Timer,
 } from "lucide-react";
@@ -158,7 +159,12 @@ export const snsLinks: SnsLink[] = [
     url: "https://github.com/Kogia-sima",
     icon: GitBranch,
   },
-  { platform: "Qiita", url: "https://qiita.com/Kogia_sima", icon: Globe },
+  { platform: "Qiita", url: "https://qiita.com/Kogia_sima", icon: Newspaper },
+  {
+    platform: "Kaggle",
+    url: "https://www.kaggle.com/kogiasima",
+    icon: CodeXml,
+  },
 ];
 
 export const contacts: Contact[] = [
@@ -166,7 +172,7 @@ export const contacts: Contact[] = [
     url: "https://github.com/Kogia-sima",
     icon: GitBranch,
   },
-  { url: "https://qiita.com/Kogia_sima", icon: Globe },
+  { url: "https://qiita.com/Kogia_sima", icon: Newspaper },
   { url: "mailto:orcinus4627@gmail.com", icon: Mail },
 ];
 
