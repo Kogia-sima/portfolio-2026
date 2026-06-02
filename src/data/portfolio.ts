@@ -54,9 +54,9 @@ export const repos: Repo[] = [
     forks: 62,
   },
   {
-    name: "itoap",
+    name: "ipi_demo_web",
     description:
-      "整数を文字列に変換するための高速なライブラリ。従来よりも高速なアルゴリズムを開発し、様々なライブラリで実際に使用されています。",
+      "間接プロンプトインジェクション攻撃を体験できる教育用Webサイト",
     url: "https://github.com/Kogia-sima/itoap",
     languages: ["Rust"],
     stars: 23,
@@ -128,6 +128,15 @@ export const articles: Article[] = [
   },
   {
     title:
+      "AIエージェントの怖さを体験できるWebサイトを作った【間接プロンプトインジェクション】",
+    url: "https://qiita.com/Kogia_sima/items/d9120e42c543b8dc41b3",
+    publishedAt: "2026-05-28",
+    category: "Qiita",
+    excerpt:
+      "AIエージェントに対する新たな攻撃手法である「間接プロンプトインジェクション攻撃」についての説明と、自作Webサイトの紹介。",
+  },
+  {
+    title:
       "異常検知の「異常データがない」問題を生成AIで解決する (ソリューション編)",
     url: "https://note.com/bunsekiya_tech/n/n1ea88b12ca5a",
     publishedAt: "2024-09-25",
@@ -142,14 +151,6 @@ export const articles: Article[] = [
     category: "Note",
     excerpt:
       "異常検知においてよくありがちな、「異常データがない」という問題を、生成AIを活用して異常データを活用して解決するアプローチを紹介します。",
-  },
-  {
-    title: "Cloudflareの「デジタル停電」から学ぶ、企業が見直すべきリスク管理",
-    url: "https://note.com/bunsekiya_tech/n/n618335665c47",
-    publishedAt: "2025-11-29",
-    category: "Note",
-    excerpt:
-      "2025年に発生したCloudflareの大規模障害の原因と影響を分析し、企業が見直すべきリスク管理のポイントを解説します。",
   },
 ];
 
