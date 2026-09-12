@@ -22,7 +22,7 @@ export const profile: Profile = {
   title: "AI Engineer",
   tagline:
     "Building reliable AI systems that empower users and drive innovation.",
-  bio: "AI・データ基盤・クラウド・フルスタックを横断する技術力と、プリセールス経験に基づくビジネス視点を兼ね備えたAIエンジニア。製造業DX支援では技術リーダーとして計13件の開発テーマを主導し、AIモデルの143倍高速化や分散処理費用97%削減等の成果を創出。社内では生成AIトレンド配信基盤の単独開発・運用（累計10,000件以上配信）、Claude Code研修の企画・実施（満足度5/5）、生成AI利用ガイドライン策定など、AI活用の組織浸透を一貫して推進。技術力とビジネス力の両面から、事業価値に直結する貢献を行います。",
+  bio: "AI・データ基盤・クラウド・フルスタックを横断する技術力と、プリセールス経験に基づくビジネス視点を兼ね備えたAIエンジニア。製造業DX支援では技術リーダーとして計12件の開発テーマを主導し、AIモデルの143倍高速化や分散処理費用97%削減等の成果を創出。社内では生成AIトレンド配信基盤の単独開発・運用（累計10,000件以上配信）、Claude Code研修の企画・実施（満足度5/5）、生成AI利用ガイドライン策定など、AI活用の組織浸透を一貫して推進。技術力とビジネス力の両面から、事業価値に直結する貢献を行います。",
   avatarUrl: "/avatar.png",
   techStack: [
     "AWS",
@@ -38,7 +38,7 @@ export const profile: Profile = {
 
 export const kpiItems: KpiItem[] = [
   { icon: FolderGit2, label: "Repositories", value: 52 },
-  { icon: Star, label: "Total Stars", value: 1020 },
+  { icon: Star, label: "Total Stars", value: 1046 },
   { icon: BookOpen, label: "Articles", value: 38 },
   { icon: Timer, label: "Years of Programming", value: 19 },
 ];
@@ -50,8 +50,8 @@ export const repos: Repo[] = [
       "Rust製のシンプルで、軽量で、高速なテンプレートエンジン。テンプレートエンジンのベンチマークにおいて、約6年間1位を維持しています。",
     url: "https://github.com/rust-sailfish/sailfish",
     languages: ["Rust"],
-    stars: 967,
-    forks: 62,
+    stars: 991,
+    forks: 66,
   },
   {
     name: "ipi_demo_web",
@@ -59,7 +59,7 @@ export const repos: Repo[] = [
       "間接プロンプトインジェクション攻撃を体験できる教育用Webサイト",
     url: "https://github.com/Kogia-sima/itoap",
     languages: ["Rust"],
-    stars: 23,
+    stars: 24,
     forks: 2,
   },
   {
@@ -86,7 +86,7 @@ export const repos: Repo[] = [
       "Rust製のコードカバレッジ修正ツール。Rustプロジェクトにおけるカバレッジの不整合を自動的に修正し、テストの信頼性を向上させます。",
     url: "https://github.com/Kogia-sima/rust-covfix",
     languages: ["Rust"],
-    stars: 16,
+    stars: 17,
     forks: 4,
   },
   {
